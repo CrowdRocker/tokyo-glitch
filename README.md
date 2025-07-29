@@ -1,41 +1,42 @@
-# 💫 Tokyo Glitch - Cyberpunk Arch Rice
+# 🌆 Tokyo Glitch — Cyberpunk Arch Linux Rice
 
-Welcome to your new desktop dimension. Tokyo Glitch is a fully themed, automated Linux showcase build—crafted on Arch and Wayland, steeped in neon, glitch, and chaos overlays. It’s not just a rice... it's a remixable experience.
+A cinematic, remixable desktop experience built on Hyprland/SwayFX. Featuring glitch overlays, ambient audio, SVG icons, animated splash screens, and modular configs.
 
----
-
-## 🎬 Preview Splash
-
-![Tokyo Glitch HUD](./assets/tokyo-glitch-hud.gif)
-*Live overlays. Chaos portals. Beat-synced effects. The future is now.*
-
----
+![Tokyo Glitch Preview](screenshots/tokyo-glitch-desktop.png)
 
 ## 🚀 Features
 
-- 🎛️ **Animated Glitch Modules** – Pulse toggles, countdowns, hover FX
-- 🌧️ **Rain + Fade HUDs** – Waybar splash with shimmer + overlay fadeouts
-- 🔊 **Sound FX Layer** – Triggered audio cues for splash and system events
-- 🎮 **Game Dock** – nwg-dock with custom icons and visibility scripts
-- 🎶 **Beat Sync FX** – Cava-driven pulses and reactive glitch animations
-- 🧩 **Modular Configs** – Hyprland/SwayFX, Waybar, nwg-drawer, all scripted
-- 💾 **Auto Setup Script** – One command to deploy the rice
-- 🎨 **SVG Icon Pack** – Neon-styled, pixel-perfect dock icons
-- 🖥️ **Login Theme** – Custom SDDM with glitch-grid and boot sounds
+- 🧬 Hyprland + SwayFX configs with animated overlays
+- 🎛️ Waybar HUD with rain FX and glitch modules
+- 🧩 nwg-dock + nwg-drawer launchers
+- 🎨 Custom SDDM theme with onboarding comic
+- 🔊 Ambient audio loop (rain, synth, terminal beeps)
+- 💠 Faux-terminal boot splash + post-install preview
+- 🌀 SVG icons, glitch fonts, and remix-ready assets
 
----
-
-## 📦 Setup
+## 📦 Installation
 
 ```bash
-git clone https://github.com/YOURUSERNAME/tokyo-glitch
-cd tokyo-glitch
+git clone https://github.com/yourusername/tokyo-glitch-rice.git
+cd tokyo-glitch-rice
+chmod +x install.sh
 ./install.sh
-🔄 Remix Tips
-Want to tweak icons, change glitch speed, or swap effects? Check ./configs, ./scripts, and ./assets—everything’s modular.
+🖼️ Screenshots
+Desktop	Waybar HUD	SDDM Theme
+🎞️ Preview GIFs
+Splash Screen	Rain Overlay	Dock Animation
+🧠 Remix Guide
+Want to customize? Check out:
 
-🙌 Credits
-Icons by Matthew Original rice concept and automation by [Matthew + Copilot] Pulse logic inspired by open-source Cava FX modules
+configs/ for compositor and bar tweaks
 
-🌀 License
-MIT – remix freely and share the chaos ✨
+assets/icons/ for SVG icon sets
+
+assets/sddm-theme/ for login screen visuals
+
+splash/index.html for animated splash FX
+
+install.sh for modular install logic
+
+💬 Credits
+Built by Matthew with help from Copilot. Inspired by TokyoNight, glitch art, and ambient storytelling.
