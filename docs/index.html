@@ -1,23 +1,27 @@
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Tokyo Glitch</title>
+  <title>Tokyo Glitch Boot</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="bg-video">
-    <video autoplay muted loop>
-      <source src="assets/bg.mp4" type="video/mp4" />
-    </video>
+  <div class="terminal-boot">
+    <pre>
+    [OK] Initializing entropy cores...
+    [OK] Linking neon matrix overlays...
+    [OK] Syncing rain simulation modules...
+    [ERROR] Sanity kernel breached. Enabling glitch protocol...
+    [OK] Launching HUD splash renderer...
+    [OK] Tokyo Glitch preview mode: ENGAGED
+    </pre>
   </div>
-  <div class="splash">
-    <img src="assets/logo.svg" class="logo" alt="Tokyo Glitch Logo" />
-    <h1>Welcome to Tokyo Glitch</h1>
-    <p>Cyberpunk desktop. Chaos overlays. One-click deploy.</p>
-    <img src="assets/glitch-hud.gif" class="hud" />
-    <a href="https://github.com/YOURUSERNAME/tokyo-glitch" class="button">View on GitHub</a>
-  </div>
+
+  <audio autoplay loop>
+    <source src="assets/tokyo-loop.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="main.js"></script>
 </body>
 </html>
+
