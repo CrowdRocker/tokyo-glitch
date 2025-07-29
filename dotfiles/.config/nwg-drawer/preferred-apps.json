@@ -1,0 +1,6 @@
+nwg-drawer \
+  -pblock "swaylock" \
+  -pbexit "swaymsg exit" \
+  -pbreboot "systemctl reboot" \
+  -pbpoweroff "systemctl poweroff" \
+  -pbsleep "systemctl suspend"

@@ -1,0 +1,39 @@
+window {
+  background-color: #1a1b26;
+  border-radius: 12px;
+}
+
+#search-entry {
+  background-color: #24283b;
+  color: #c0caf5;
+  border: 2px solid #7aa2f7;
+  padding: 6px;
+}
+
+#power-bar button {
+  background-color: #414868;
+  color: #bb9af7;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+@keyframes neonPulse {
+  0% { box-shadow: 0 0 5px #7aa2f7; }
+  50% { box-shadow: 0 0 10px #bb9af7; }
+  100% { box-shadow: 0 0 5px #7aa2f7; }
+}
+
+#custom-arch-launcher:hover {
+  animation: neonPulse 1.2s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+

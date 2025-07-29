@@ -1,0 +1,19 @@
+"custom/gamescope": {
+  "exec": "echo '🎮 Gamescope'",
+  "on-click": "gamescope-launcher.sh",
+  "tooltip": false
+},
+"playerctl": {
+  "format": "<span color='#bb9af7'>♪</span> {artist} - {title}",
+  "max-length": 30,
+  "scroll": true
+},
+"battery": {
+  "format": "{percentage}%",
+  "states": {
+    "good": 85,
+    "warning": 40,
+    "critical": 15
+  },
+  "format-critical": "<span color='#ff5555'>{percentage}% 🔻</span>"
+}

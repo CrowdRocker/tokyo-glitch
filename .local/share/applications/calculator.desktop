@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=CyberCalc
+Exec=gnome-calculator
+Icon=/home/matthew/.config/nwg-drawer/icons/neon-calc.svg Type=Application Categories=Utility;
