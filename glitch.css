@@ -1,0 +1,116 @@
+/* Reset + base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #1a1b26;
+  color: #c0caf5;
+  overflow-x: hidden;
+}
+
+/* Glitched background with pulse animation */
+.glitch-bg {
+  background-image: url('../assets/gifs/rain-overlay.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: bgPulse 12s ease-in-out infinite;
+}
+
+@keyframes bgPulse {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+
+/* Splash logo + header */
+.splash-logo {
+  text-align: center;
+  padding-top: 4vh;
+}
+
+.splash-logo img {
+  width: 160px;
+  filter: drop-shadow(0 0 5px #7aa2f7) hue-rotate(20deg);
+  animation: flicker 2s infinite;
+}
+
+.splash-logo h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.4rem;
+  color: #7dcfff;
+  text-shadow: 0 0 8px #7aa2f7;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #9aa5ce;
+  animation: flicker 3s infinite;
+}
+
+/* Flicker effect */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0.2;
+  }
+}
+
+/* Preview blocks */
+.preview-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.preview-block {
+  max-width: 300px;
+  text-align: center;
+}
+
+.preview-block img {
+  width: 100%;
+  border: 2px solid #7aa2f7;
+  box-shadow: 0 0 15px #7dcfff88;
+  transition: transform 0.3s;
+}
+
+.preview-block img:hover {
+  transform: scale(1.05);
+}
+
+/* Icon grid */
+.icon-showcase {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.icon-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.icon-grid img {
+  width: 64px;
+  transition: filter 0.2s, transform 0.2s;
+}
+
+.icon-grid img:hover {
+  filter: hue-rotate(180deg) drop-shadow(0 0 4px #f7768e);
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer.credits {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #7dcfff;
+  background: linear-gradient(to right, #1a1b26, #24283b);
+  border-top: 1px solid #3d59a1;
+}
+
