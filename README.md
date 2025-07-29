@@ -17,7 +17,7 @@ A cinematic, remixable desktop experience built on Hyprland/SwayFX. Featuring gl
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/tokyo-glitch-rice.git
+git clone https://github.com/CrowdRocker/tokyo-glitch-rice.git
 cd tokyo-glitch-rice
 chmod +x install.sh
 ./install.sh
